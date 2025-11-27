@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dnister Food Store</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="home">
+  <div class="header-overlay">
+    <div class="top-bar">
+      <div class="logo-brand">
+        <img src="images/logo.png" alt="Dnister Logo" class="logo" />
+        <div class="branding">
+  <div class="logo-name">
+  <div>
+    <h1>Dnister</h1>
+    <p>Your Local Taste of Europe</p>
+  </div>
+</div>
+<div class="theme-toggle" id="themeToggle" title="Toggle Theme">🌙</div>
+</div>
+      </div>
+
+      <div class="burger" id="burger">☰</div>
+
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#products">Our Products</a></li>
+          <li><a href="#catalog">Catalog</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+      
+
+  <main>
+  <!-- About Us -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      <b><br>
+         A true family business, our food store has been dedicated to bringing the finest flavors from Europe and the best local food products to our community for over 20 years. We are proud to carry on a tradition of quality, crafting and selecting every item with care.
+Our large assortment of smoked goods is a testament to our craftsmanship, featuring a wide variety of expertly smoked sausages and hams. Our celebrated baked sausage, in particular, embodies the quality our customers have come to expect, cherished for its rich taste and superior preparation.
+      <br><br>
+         Find us nestled within the historic St. Lawrence Market, one of the area's most significant and renowned landmarks. We are honored to be a part of this vibrant community, and we invite you to stop by and experience the passion and exceptional flavors that our family has been sharing for two decades.
+    </p>
+</div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="section">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/product1.jpg" alt="Ham" />
+      <h3>Smoked Meats</h3>
+      <p>
+We offer a large assortment of smoked meats, a wide variety of sausages and hams. Including our in-house baked sausage and ham they are particularly popular and celebrated for their rich flavor and high quality.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/product2.jpg" alt="Sausage" />
+      <h3>European Imports</h3>
+      <p>Our selection from Europe features dairy products and an array of cheeses including smoked. We also provide a range of canned goods, cookies, pastries, and a tempting variety of candies, and much more. Explore our store to discover an even broader selection of quality products that cater to every taste.
+
+</p>
+    </div>
+    <div class="product-card">
+      <img src="images/product3.jpg" alt="Roast" />
+      <h3>And Much More</h3>
+      <p>Explore our store to discover a broad range of quality products for every taste.</p>
+    </div>
+  </div>
+
+  <!-- 👇 Кнопка після Our Products -->
+  <div class="catalog-button-wrapper">
+    <a href="#catalog" class="catalog-button">Open Catalog</a>
+  </div>
+</section>
+
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/gallery1.jpg" alt="Meat Product 1" />
+      <img src="images/gallery2.jpg" alt="Sausage Product 2" />
+      <img src="images/gallery3.jpg" alt="Sliced Meat Product 3" />
+    </div>
+  </section>
+<section id="catalog" class="section scroll-adjust">
+  <h2>Catalog</h2>
+
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="kolbassa">Kolbassa and Sausage</button>
+    <button class="filter-btn" data-category="ham">Ham and Bacon</button>
+    <button class="filter-btn" data-category="salami">Salami</button>
+    <button class="filter-btn" data-category="cheese">Cheese</button>
+    <button class="filter-btn" data-category="dairy">Dairy Products</button>
+    <button class="filter-btn" data-category="desserts">Desserts and Sweets</button>
+    <button class="filter-btn" data-category="frozen">Frozen Food</button>
+    <button class="filter-btn" data-category="snack">Snack and Drink</button>
+    <button class="filter-btn" data-category="canned">Canned Food</button>
+    <button class="filter-btn" data-category="coffee">Coffee and Tea</button>
+  </div>
+
+  <div class="catalog-grid">
+    <!-- Product cards -->
+    <div class="catalog-item" data-category="kolbassa" data-title="Garlic Sausage" data-desc="A traditional Ukrainian sausage made with rich pork, garlic, and spices. Slow-smoked for deep flavor.">
+  <img src="images/kolbassa1.jpg" alt="Garlic Sausage" />
+  <h3>Garlic Sausage</h3>
+</div>
+
+<div class="catalog-item" data-category="kolbassa" data-title="Smoked Krakowska" data-desc="Thick and juicy Polish-style kolbassa with marjoram and pepper. Excellent with cheese.">
+  <img src="images/kolbassa2.jpg" alt="Smoked Krakowska" />
+  <h3>Smoked Krakowska</h3>
+</div>
+
+<div class="catalog-item" data-category="kolbassa" data-title="Ukrainian Homemade Roasted Sausage" data-desc="Oven-baked, juicy and flavorful pork sausage. No preservatives — just tradition and taste.">
+  <img src="images/kolbassa3.jpg" alt="Ukrainian Homemade Roasted Sausage" />
+  <h3>Ukrainian Homemade Roasted Sausage</h3>
+</div>
+
+<div class="catalog-item" data-category="kolbassa" data-title="Hungarian Csabai" data-desc="Spicy and smoky Hungarian-style kolbassa with paprika and garlic. Perfect for grilling.">
+  <img src="images/kolbassa4.jpg" alt="Hungarian Csabai" />
+  <h3>Hungarian Csabai</h3>
+</div>
+
+<div class="catalog-item" data-category="kolbassa" data-title="Farmer's Sausage" data-desc="Mild, coarse-ground kolbassa with a rustic taste. A customer favorite for over 10 years.">
+  <img src="images/kolbassa5.jpg" alt="Farmer's Sausage" />
+  <h3>Farmer's Sausage</h3>
+</div>
+
+<div class="catalog-item" data-category="kolbassa" data-title="Cherry Sausage" data-desc="Extra smoky, dense-textured kolbassa for those who love deep flavor and old-world craftsmanship.">
+  <img src="images/kolbassa6.jpg" alt="Cherry Sausage" />
+  <h3>Cherry Sausage</h3>
+</div>
+
+    <div class="catalog-item" data-category="ham">
+      <img src="images/product2.jpg" alt="Ham" />
+      <h3>Desserts and Sweets</h3>
+    </div>
+    <div class="catalog-item" data-category="cheese">
+      <img src="images/product3.jpg" alt="Cheese" />
+      <h3>Candy</h3>
+    </div>
+    <div class="catalog-item" data-category="desserts">
+      <img src="images/gallery1.jpg" alt="Cake" />
+      <h3>Cheese Cake</h3>
+    </div>
+    <div class="catalog-item" data-category="coffee">
+      <img src="images/gallery2.jpg" alt="Coffee" />
+      <h3>Ham and Bacon</h3>
+    </div>
+    <!-- Додати ще продукти за потреби -->
+  </div>
+</section>
+<!-- Модальне вікно (приховане за замовчуванням) -->
+ <div id="productModal" class="modal">
+  <span class="modal-close" onclick="closeModal()">&times;</span>
+  <img class="modal-img" src="" alt="">
+  <h3 class="modal-title"></h3>
+  <p class="modal-description"></p>
+</div>
+</div>
+  <!-- CONTACTS SECTION -->
+<section id="contact" class="section scroll-adjust">
+  <h2>Contact Us</h2>
+  <div class="contact-container" style="display: flex; flex-wrap: wrap; gap: 30px;">
+    <div class="contact-info" style="flex: 1; min-width: 280px;">
+      <h3>Visit Us</h3>
+            <p class="contact-item"><strong>Address:</strong><br>93 Front St. E. Toronto, ON M5E 1C3 Canada,<br>St. Lawrence Market</p>
+      <p class="contact-item"><strong>Phone:</strong><br>+1 (416) 368-8427</p>
+      <p class="contact-item"><strong>Email:</strong><br>dnister@mail.com</p>
+    </div>
+    <div id="map-container" class="map" style="flex: 1; min-width: 300px;">
+      <iframe
+        src="https://www.google.com/maps/embed/v1/place?q=St+Lawrence+Market+Toronto+Canada&key=AIzaSyDFLclS91jr1iavDzBLFtnmlKWllAz5Vn4"
+        width="100%" height="280" style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+  <button id="backToTop" title="Back to top">↑</button>
+<script src="script.js"></script>
+<!-- Modal window for catalog items -->
+<div id="product-modal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <img class="modal-img" src="" alt="Product Image">
+    <h3 class="modal-title"></h3>
+    <p class="modal-description"></p>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2012-2025 <strong>Dnister</strong> — Your Local Taste of Europe</p>
+    <p><a href="mailto:info@dnister.ca">dister@mail.com</a></p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="social-icons">
+  <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2c0-2 1.2-3.1 3-3.1.9 0 1.9.2 1.9.2v2.1h-1c-1 0-1.3.6-1.3 1.2v1.6h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z"/>
+    </svg>
+  <a href="https://www.instagram.com/dnister.ukrainian.store/" target="_blank" aria-label="Instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.2A4.8 4.8 0 1 0 16.8 12 4.8 4.8 0 0 0 12 7.2zM12 15a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm4.5-8.5a1 1 0 1 0 1 1 1 1 0 0 0-1-1z"/>
+    </svg>
+  </a>
+</div>
+  </div>
+</footer>
+</body>
+
+</body>
+</html>
